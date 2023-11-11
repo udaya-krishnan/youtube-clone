@@ -1,0 +1,237 @@
+<style>
+    .subscribe-button{
+        background-color: rgb(200, 0, 0);
+        border:none ;
+        width:100px;
+        color: white;
+        height: 36px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .subscribe-button:hover{
+        opacity: .8;
+    }
+    .subscribe-button:active{
+        opacity: .4;
+       
+    }
+    .join-button{
+        background-color: white;
+        height: 36px;
+        color: rgb(0, 174, 255);
+        width:62px;
+        border-color:rgb(0, 174, 255) ;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 2px;
+        margin-right: 10px;
+        
+       transition: background-color 1s,color 1s;
+
+    }
+    .join-button:hover{
+        background-color:rgb(0, 174, 255) ;
+      
+        color: #fff;
+    }
+    .join-button:active{
+        opacity: .5s;
+    }
+    .tweet-button{
+        background-color: rgb(130, 171, 247);
+        color: white;
+        width: 67px;
+        height: 38px;
+    
+        border-radius: 18px;
+        border: none;
+    
+        font-weight: bold;
+        cursor: pointer;
+        transition: box-shadow .15s;
+        
+    }
+    .tweet-button:hover{
+        box-shadow: 5px 5px 5px rgba(0,0,0,.15);
+
+    }
+    .requstnow-button{
+        background-color: black;
+        color: white;
+        border: none;
+        width: 120px;
+        height: 38px;
+        cursor: pointer;
+        margin-left: 10px;
+        transition: opacity .15s;
+
+    }
+    .requstnow-button:hover{
+        opacity: .8;
+    }
+    .requstnow-button:active{
+        opacity: .4;
+    }
+
+    .add-button{
+        background-color: rgb(255,216,20);
+        color: black;
+        border: none;
+        margin-left: 10px;
+        height:35px;
+        width: 150px;
+        border-radius: 19px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color .15s;
+    }
+    .add-button:hover{
+        background-color:rgb(250, 209, 6) ;
+    }
+    .sign-button{
+        background-color:rgb(46,164,79);
+        color: white;
+        height:40px ;
+        width: 100px;
+        border: none;
+        border-radius: 6px;
+        margin-left: 10px;
+        font-weight:bold ;
+        font-size: 17px;
+        cursor: pointer;
+       transition: box-shadow .15s;
+    }
+    .sign-button:hover{
+        box-shadow: 5px 5px 5px rgba(0,0,0,.15);
+    }
+    .get-button{
+        background-color: rgb(121,82,179);
+        color: white;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        border: none;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: padding-right .5s,padding-bottom .5s;
+    }
+    .get-button:hover{
+        padding-bottom: 20px;
+        
+        padding-right: 20px;
+        
+    }
+    .download-button{
+        background-color:white ;
+        color: rgb(108,117,125);
+        height: 40px;
+        width: 110px;
+        border-color: rgb(108,117,125) ;
+        border-radius: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+        
+    }
+    .apply-button{
+        background-color: rgb(10,102,194);
+        color: #fff;
+        height: 40px;
+        width: 220px;
+        border: none;
+        border-radius: 20px;
+        font-weight: bold;
+        margin-left:10px ;
+        cursor: pointer;
+    }
+    .save-button{
+        background-color: #fff;
+        color:rgb(130, 171, 247);
+        border-color: rgb(130, 171, 247);
+        border-width: 1px;
+        border-style: solid;
+        border-radius:20px ;
+        width: 85px;
+        height: 40px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: large;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px rgba(0,0,0,.15);
+        
+    }
+    .save-button:active{
+        box-shadow: 0 0 0;
+    }
+    .para1{
+        font-size: xx-large;
+        font-weight: bold;
+        margin-left: 30px;
+    }
+    .para2{
+        font-size: x-large;
+        font-weight: bold;
+        color: greenyellow;
+        margin-left: 30px;
+    }
+    .amazon{
+        margin-left: 30px;
+    }
+    .para3{
+        margin-left: 30px;
+        font-size: x-large;
+    }
+    .buy{
+        background-color: rgb(255,164,28);
+        color: black;
+        border: none;
+        margin-left: 10px;
+        height:35px;
+        width: 150px;
+        border-radius: 19px;
+        font-size: 14px;
+        cursor: pointer;
+
+    }
+    .amazon:hover{
+    color: orange;
+    }
+    .back{
+        padding: 10px;
+        cursor: pointer;
+    }
+    .next{
+        padding: 10px;
+        cursor: pointer;
+    }
+</style>
+<button class="subscribe-button">SUBSCRIBE</button>
+
+<button class="join-button">JOIN</button>
+<button class="tweet-button">Tweet</button>
+<button class="requstnow-button">Request Now</button>
+<button class="add-button">Add to Cart</button>
+<button class="sign-button">Sign up</button>
+<button class="get-button">Get started</button>
+<button class="download-button">Download</button>
+<button class="apply-button">Apply on company website</button>
+<button class="save-button">Save</button><br><br>
+<a href="https://www.amazon.in/" class="amazon" target="_blank">Back amazon</a>
+<p class="para1"> Nike Black Running Shoes</p>
+<p class="para2"> $36-in stock.</p>
+<p class="para3">Free delivary Tomorrow.</p>
+<button class="add-button">Add to Cart</button>
+<button class="buy">Buy Now</button><br><br>
+<button class="back">BACK</button>
+<a href="1">1</a>
+<a href="2">2</a>
+<a href="3">3</a>
+<a href="4">4</a>
+<a href="5">5</a>
+<button class="next">NEXT</button>
